@@ -1,0 +1,209 @@
+[
+    {
+        "id": 516671,
+        "groupNo": "All",
+        "year": 2024,
+        "grade": "B+",
+        "termWork": 37.0,
+        "examWork": 43.0,
+        "points": 3.3,
+        "result": 80.0,
+        "courseSerialNo": 7,
+        "hallSerialNo": 7,
+        "level": {
+            "id": 3,
+            "name": "Third Level",
+            "openRegistration": true
+        },
+        "term": {
+            "id": 1,
+            "name": "First Term"
+        },
+        "student": {
+            "id": 20230623,
+            "name": "...",
+            "address": "...",
+            "phone": "",
+            "mobile": "...",
+            "entryYear": "2022",
+            "email": "...",
+            "gpa": 3.46,
+            "total": 3265,
+            "birthDate": "2004-05-12",
+            "sex": "M",
+            "highschool": null,
+            "highschoolPercentageGrade": null,
+            "firstLanguage": "",
+            "secondLanguage": "...",
+            "nationalId": "...",
+            "nationlity": "...",
+            "placeBirth": "...",
+            "country": "",
+            "compulsoryHours": 99,
+            "electiveHours": 15,
+            "englishName": "...",
+            "militaryServiceCourseDate": null,
+            "studentBehavior": null,
+            "militaryServiceRenewal": null,
+            "militaryServiceCourseEndDate": null,
+            "statusDate": null,
+            "statusYear": null,
+            "succeedHours": 114,
+            "statusTerm": null,
+            "percentage": 81.62,
+            "grade4TotalCourses": 4000,
+            "honorDegreeTransient": null,
+            "generalGrade": null,
+            "gpGrade": null,
+            "specialMandatoryGrade": null,
+            "specialMandatoryTotal": null,
+            "specialMandatoryPercentage": null,
+            "majorGroup": "A",
+            "nationalityEnglish": null,
+            "placeBirthEnglish": null,
+            "repeatedSuccessfulHours": null,
+            "repeatedSuccessfulCourses": null,
+            "levelChanceNo": "2nd Chance",
+            "user": {
+                "id": 14402,
+                "login": "20230623",
+                "firstName": null,
+                "lastName": null,
+                "email": null,
+                "activated": true,
+                "langKey": "en",
+                "imageUrl": null,
+                "resetDate": null
+            },
+            "status": {
+                "id": 1,
+                "name": "مقيد"
+            },
+            "level": {
+                "id": 4,
+                "name": "Fourth Level",
+                "openRegistration": true
+            },
+            "honorDegree": {
+                "id": 2,
+                "name": "not yet"
+            },
+            "law": {
+                "id": 3,
+                "academicYear": "General Program (2018)",
+                "maxElectiveHours": 24,
+                "maxCompulsoryHours": 111,
+                "minRegisteredHoursPerTerm": 9,
+                "maxRegisteredHoursPerTerm": "12,15,18",
+                "prerequisitiesSuccess": "1",
+                "maxAbsenceCount": 5,
+                "maxMaktabiCourseStudentCount": 20
+            },
+            "program": {
+                "id": 6,
+                "name": "Information Systems",
+                "arabicName": "نظم المعلومات",
+                "freeRegistrationStartDate": "2021-10-26",
+                "freeRegistrationEndDate": "2026-03-03",
+                "delayedRegistrationStartDate": "2021-04-20",
+                "delayedRegistrationEndDate": "2021-04-27",
+                "delayedRegistrationChargeUnit": 50,
+                "maxStudentsPerGroup": 25,
+                "maxStudentsPerGroupInternationalBranch": 0,
+                "maxElectiveHours": 24,
+                "maxCompulsoryHours": 111,
+                "remarkingRequestStartDate": "2022-03-23",
+                "remarkingRequestEndDate": "2026-03-11",
+                "programSelectionStartDate": "2022-09-19",
+                "programSelectionEndDate": "2025-09-19",
+                "allowConflict": true,
+                "regularProgram": true,
+                "minGpa": 2.7,
+                "repeatedCourseCost": 10
+            },
+            "highSchoolCertificateType": {
+                "id": 1,
+                "name": "ثانوية عامة علمي رياضة"
+            },
+            "bylawVersion": {
+                "id": 2,
+                "name": "V2.0"
+            }
+        },
+        "course": {
+            "id": 443,
+            "code": "IS321",
+            "name": "File Management and processing",
+            "arabicName": "ادارة ومعالجة الملفات",
+            "numOfHours": 3,
+            "oldNumOfHours": 3,
+            "requiredHoursForRegistration": 0,
+            "lectureHours": 2,
+            "experimentalHours": 1,
+            "activatePrerequisite": 1,
+            "maxStudentCount": null,
+            "courseDataUpdated": false,
+            "selectedStudentGroup": null,
+            "studentCourseStatus": null,
+            "currentCourseVersion": null,
+            "termStatus": false,
+            "prerequisites": null,
+            "level": {
+                "id": 3,
+                "name": "Third Level",
+                "openRegistration": true
+            },
+            "law": {
+                "id": 3,
+                "academicYear": "General Program (2018)",
+                "maxElectiveHours": 24,
+                "maxCompulsoryHours": 111,
+                "minRegisteredHoursPerTerm": 9,
+                "maxRegisteredHoursPerTerm": "12,15,18",
+                "prerequisitiesSuccess": "1",
+                "maxAbsenceCount": 5,
+                "maxMaktabiCourseStudentCount": 20
+            },
+            "type": {
+                "id": 5,
+                "name": "Specialization Mandatory"
+            },
+            "term": {
+                "id": 1,
+                "name": "First Term"
+            },
+            "courseDescription": {
+                "id": 293,
+                "courseDescription": "Basic Files Operations – Types of storage devices and their architecture – Computing access time – Simple Index – Consequential Processing – MultiLevel Indexing – B-Trees – B* Trees – Indexed Sequential Access – B+Trees – Hashing – Advanced indexing mechanisms ",
+                "courseDescriptionArabic": null
+            },
+            "coursePrograms": null
+        },
+        "courseVersion": null,
+        "absenceCount": 0,
+        "examHalls": {
+            "id": 1,
+            "capacity": 34,
+            "midtermCapacity": 34,
+            "name": "المدرج الكبير ( الجانب الأيمن) Final",
+            "termStatus": true
+        },
+        "evaluationMethod": {
+            "id": 1,
+            "name": "Exam"
+        },
+        "user": {
+            "id": 14402,
+            "login": "20230623",
+            "firstName": null,
+            "lastName": null,
+            "email": null,
+            "activated": true,
+            "langKey": "en",
+            "imageUrl": null,
+            "resetDate": null
+        },
+        "remarkingOpened": null,
+        "remarkingPayment": null
+    }
+]

@@ -1,0 +1,7 @@
+/artifacts
+/models
+/processed
+/data/Masked_Data
+/data/students.json
+.env
+.vscode

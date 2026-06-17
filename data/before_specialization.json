@@ -1,0 +1,262 @@
+[
+    {
+        "code": "CS111",
+        "name": "Fundamentals of Computer Science",
+        "arabicName": "اساسيات علوم الحاسب",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "Introduction to computer and information systems – Types of computers – Computer hardware and software components – Data representation and number systems – Introduction to networking – Introduction to internet – Algorithm development – algorithm representation – flowcharts – stepwise refinement – problem solving methods and tools. "
+    },
+    {
+        "code": "CS112",
+        "name": "Structured Programming",
+        "arabicName": "برمجة هيكلية",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "Second Term",
+        "courseDescription": "Structured program development: problem solving decision structure – repetition structures – Top-down and stepwise refinement – Subprograms: Procedures and functions – Structured data types: one/two dimension arrays – strings – Dynamic data structures (pointers) – Recursion."
+    },
+    {
+        "code": "CS213",
+        "name": "Object Oriented Programming",
+        "arabicName": "برمجة شيئية",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "Concepts of object-oriented programming – use of classes – fundamentals of object-oriented design- Encapsulation – Data Abstraction – Polymorphism – and Inheritance – analysis of algorithms – basic searching and sorting techniques. "
+    },
+    {
+        "code": "CS214",
+        "name": "Data Structures",
+        "arabicName": "هياكل البيانات",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "Second Term",
+        "courseDescription": "Binary tree – binary search tree – balanced tree – simple graphs – and hash tables. Quadratic and sub-quadratic linear sorting algorithms – asymptotic complexity. (e.g., quick sort – merge sort – heap sort – insertion sort – selection sort and count Built-in data structures. Stacks – queues – linked lists – and tree structures. Sorting algorithms – searching algorithms – and hashing. Abstract data types (ADT). "
+    },
+    {
+        "code": "CS251",
+        "name": "Introduction to Software Engineering",
+        "arabicName": "مقدمة في هندسة البرمجيات",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "Second Term",
+        "courseDescription": "Software crisis – Software process models – Agile software development – Analysis – Requirements engineering – Use case model – Design principles – UML – Tools and Methods – Basic design patterns – Introduction to testing – Unit testing – Version control. "
+    },
+    {
+        "code": "DS211",
+        "name": "Introduction to Operations Research and Decision Support",
+        "arabicName": "مقدمة فى بحوث العمليات ودعم القرار",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "Principles of problem identification and definition, model formulation, solution approaches, analysis and implementation – linear programming – integer programming – networks – project management – simulation models – solution approaches of these models with the help of relevant software packages will be covered – introduction to decision support systems (DSS) – principles of computer modeling languages, applications and use of integrated software packages. "
+    },
+    {
+        "code": "DS251",
+        "name": "Fundamentals of Management",
+        "arabicName": "أساسيات الإدارة",
+        "creditHours": 2,
+        "type": "General Elective",
+        "level": "Second Level",
+        "term": null,
+        "courseDescription": "History of Management, planning, fundamentals of planning, making decisions, strategic planning, plans and planning tools. Organizing and managing human resources. Influencing, leadership, controlling. Production management and control. Quality management. Management of service industries, accounting for risk, and economic analysis."
+    },
+    {
+        "code": "HU111",
+        "name": "Technical Report Writing",
+        "arabicName": "كتابة التقارير الفنية",
+        "creditHours": 2,
+        "type": "General Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "The basic rudiments of report writing; The rationale for report writing; the structure of reports; and such details as physical appearance and linguistic style; In addition to writing reports; student will also be given supplementary exercises as well as applied project to enhance their general writing skills. "
+    },
+    {
+        "code": "HU112",
+        "name": "Ethics and professionalism",
+        "arabicName": "الأخلاق والمهنية",
+        "creditHours": 2,
+        "type": "General Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "Critical examination of ethical problems associated with computer science and engineering – legal and quasi-legal (i.e. policy and regulative) issues – Process of ethical decision-making – Privacy and confidentiality – Computer crime – Professional codes and responsibilities – Software piracy – Impact of computers on society. "
+    },
+    {
+        "code": "HU113",
+        "name": "Creative Thinking and Communication Skills",
+        "arabicName": "التفكير الإبداعى ومهارات الإتصال",
+        "creditHours": 2,
+        "type": "General Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "Meta-cognition (thinking about thinking) – Edward do Bono's CoRT (cognitive research trust) program of learning thinking – Vertical and lateral thinking approaches – Creative thinking tools like Brainstorming, Tony Buzan's Mind mapping and Edward do Bono's Six Thinking hats. Theories of communication – How to translate theories into complete strategies to communicate with diverse audience – Written Communications: Memoranda, Letters, Executive summaries, Business and research reports – Oral Communications: Listening, Presentation skills, Interviewing, Conducting meetings, Interpersonal communication – Negotiation – Intercultural communication – Importance of communication in team building."
+    },
+    {
+        "code": "HU117",
+        "name": "Human Rights",
+        "arabicName": "حقوق الإنسان",
+        "creditHours": 2,
+        "type": "General Elective",
+        "level": "First Level",
+        "term": null,
+        "courseDescription": "Definition of human rights – historical development of the concept of human rights – culture relativism versus universally accepted human rights standards – various human rights: personal, political, civil, social, economical,…etc. – covering human rights within official international organizations – influence of business and global economic restructuring on human rights – monitoring human rights – human rights violations. "
+    },
+    {
+        "code": "HU118",
+        "name": "Selected Topics in Humanities",
+        "arabicName": "موضوعات مختارة فى الإنسانيات",
+        "creditHours": 2,
+        "type": "General Elective",
+        "level": "First Level",
+        "term": null,
+        "courseDescription": "This course aims at introducing students to interesting topics in humanities that need to be identified in a responsive manner to current time. "
+    },
+    {
+        "code": "HU121",
+        "name": "Fundamentals of Economies",
+        "arabicName": "أساسيات الإقتصاد",
+        "creditHours": 2,
+        "type": "General Elective",
+        "level": "First Level",
+        "term": null,
+        "courseDescription": "Concept of economics – the economic problem – Theory of demand including: utility theory – theory of production – theory of cost – theory of firm including: pricing theory – Economics of education – Economics of science and technology – Economics of automation including: computerization."
+    },
+    {
+        "code": "HU124",
+        "name": "Critical Thinking",
+        "arabicName": "التفكير النقدي",
+        "creditHours": 0,
+        "type": "General Elective",
+        "level": "First Level",
+        "term": null,
+        "courseDescription": "Determine the position of critical thinking among the forms of human thinking and its different levels and patterns – Know what critical thinking is and its different skills – Discover common mistakes in thinking – Set the criteria for critical thinking – Discriminate between correct and incorrect thinking patterns – Apply critical thinking skills in different life situations – Apply critical and logical thinking in solving problems and making various decisions – Identify the validity of the arguments, and their strengths and weaknesses – Detect logical fallacies in thinking – Apply critical reading skills on what he reads in various fields – Apply critical thinking skills on what he receives from news and opinions via various mass media – Determine the nature of propaganda and media methods – Apply critical thinking skills to confront the media\nthe media."
+    },
+    {
+        "code": "HU225",
+        "name": "Entrepreneurship ",
+        "arabicName": "ريادة لأعمال",
+        "creditHours": 0,
+        "type": "General Elective",
+        "level": "First Level",
+        "term": null,
+        "courseDescription": "Understand the meaning of Entrepreneurship, its importance to the Entrepreneur and to the economy – Know the importance of an entrepreneurial idea, the means and sources of generate this idea – Identify the characteristics, aptitudes, and qualifications of effective Entrepreneur – Identify different areas and fields that Entrepreneur can choose among them to start his project – Prepare a feasibility study for the project – Formulate a strategic/business plan for the project – Manage the project professionally – Know the organizations that support and incubate the entrepreneurial projects.\n"
+    },
+    {
+        "code": "IS211",
+        "name": "Introduction to Database Systems",
+        "arabicName": "مقدمة في نظم قواعد البيانات",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "Second Term",
+        "courseDescription": "What is and Why a database – Relational Model – Relational Algebra – SQL –The Entity-Relationship (ER) Model – Mapping ER Model to Relations. "
+    },
+    {
+        "code": "IS231",
+        "name": "Web Technology",
+        "arabicName": "تكنولوجيا الويب",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "Second Term",
+        "courseDescription": "Introduction to Internet Concepts – Front End Development: HTML – CSS – JS. – Backend Development: Web Development Platforms: J2EE – PHP – Content Management Systems: Drupal – Joomla – Introduction to Web Development Frameworks: Laravel – Symfony. "
+    },
+    {
+        "code": "IT111",
+        "name": "Electronics",
+        "arabicName": "إلكترونيات",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "\nBasic ideas; Electrostatics; Columb`s law; Gauss law; Potential; Capacitors; Electric current; Resistors; Kirchhoff,s law; Magnetic field and forces; Induction and inductors; Basic circuit theory and circuit analysis; Fundamentals of three phase circuits and transformers."
+    },
+    {
+        "code": "IT212",
+        "name": "Logic Design",
+        "arabicName": "تصميم منطقي",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "Basic logic concepts: Logic states – number systems – Boolean algebra – basic logical operations – gates and truth tables. Combinational logic: Minimization techniques – multiplexers and de-multiplexers – encoders – decoders – adders and subtractors – comparators – programmable logic arrays and memories – design with MSI – logic families – tri-state devices. Sequential logic: Flip flops – mono-stable multi-vibrators – latches and registers – Counters.  "
+    },
+    {
+        "code": "IT221",
+        "name": "Computer Networks Technology",
+        "arabicName": "تكنولوجيا شبكات الحاسب",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "to computer networking – the Internet basic concepts – Internet Protocol (IP) – Socket programming – TCP and UDP protocols – the internet FTP – SMTP – and Peer to peer applications and DNS. "
+    },
+    {
+        "code": "MA111",
+        "name": "Math-1",
+        "arabicName": "رياضة - 1",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "First Term",
+        "courseDescription": "Functions – Limits and Continuity – Definition of the derivative –Higher order derivatives – the chain rule – implicit differentiation – differentials – parametric differentiation – nth- derivative of a function and Leibentiz theorem. Roll`s theorem and the mean value theorem – Taylor and Maclaurin series – indeterminate forms and L`Hopital rule –maximum and minimum values – curve sketching. Anti-derivative and indefinite Integral–Techniques of integration- Definite integrals–the fundamental theorem of calculus – improper integrals-Area between curves – solids of revolution – arc length – surface areas of revolution."
+    },
+    {
+        "code": "MA112",
+        "name": "Discrete Mathematics",
+        "arabicName": "تراكيب محددة",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "Second Term",
+        "courseDescription": "Introduces the foundations of discrete mathematics as they apply to computer science, focusing on providing a solid theoretical foundation for further work. Topics include functions, relations, sets, simple proof techniques, Boolean algebra, propositional logic, digital logic, elementary number theory, and the fundamentals of counting.\n"
+    },
+    {
+        "code": "MA113",
+        "name": "Math-2",
+        "arabicName": "رياضة - 2",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "Second Term",
+        "courseDescription": "Partial Differentiation – First Order Differential Equations – Second and Higher Order Linear Ordinary Differential Equations – Laplace Transform – Multiple Integral – Line and surface integral. "
+    },
+    {
+        "code": "MA214",
+        "name": "Math-3",
+        "arabicName": "رياضة - 3",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "Matrices: Linear equations and matrices – Solution of linear systems – Matrix Eigen-value problem – Cayley-Hamilton theorem and its applications.  Determinants: Properties of determinants – Inverse of a matrix using determinants. Infinite Series: Definition – Properties of infinite series – some important series – Tests for convergence and divergence of series – Sum test nth term test, limit comparison test – D`Alembert test – Cauchy test – Maclaurin test – Alternating series – Power series – Taylor series for two variables – Using series to get limits of functions. Fourier analysis: Fourier theorem – Analytic Geometry: straight line – Conic Sections – Solid geometry."
+    },
+    {
+        "code": "ST121",
+        "name": "Probability and Statistics-1",
+        "arabicName": "إحصاء واحتمالات - 1",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "First Level",
+        "term": "Second Term",
+        "courseDescription": "Define statistics (types of data – types of statistics – population versus sampleMeasurement’s levels) – Describing Data (Frequency tables – Graphic Presentation – Numerical Measures – Displaying and Exploring Data) – Survey of Probability Concept (Rules of probability – Conditional probability- Total Probability Theory and Bays Rule) – Random Variables and its probability distribution with some properties – Discrete probability distribution (Binomial – Poisson – Negative Binomial – Geometric- Hyper geometric) – Continuous Probability distribution (Normal – Exponential). "
+    },
+    {
+        "code": "ST222",
+        "name": "Probability and Statistics-2",
+        "arabicName": "إحصاء واحتمالات - 2",
+        "creditHours": 3,
+        "type": "Faculty Mandatory",
+        "level": "Second Level",
+        "term": "First Term",
+        "courseDescription": "Sampling Distribution (distribution of mean) – Central limit theorem – Concept of estimation theory – Point estimation – some properties (maximum likelihood method – Moment method) – Interval estimation (population mean and variance – two population mean and variance) – concept of testing hypothesis (population mean and variance – two population mean and variance) – chisquare test – Introduction to Correlation and Regression. "
+    }
+]
