@@ -161,11 +161,27 @@ def extract_input_vector(raw_json_data: list[dict], selected_features: list[str]
 def standardize_dept_code(label: str, q_departments: list, q_mapping: dict) -> str:
     """Ensure model labels align with Questionnaire short codes (CS, IS, etc)."""
     label_upper = str(label).strip().upper()
-    if label_upper in q_departments:
+    
+    # Explicit mapping aliases to catch mismatches between Model classes and Questionnaire JSON
+    aliases = {
+        "OPERATION RESEARCH & DECISION SUPPORT": "DS",
+        "OPERATIONS RESEARCH & DECISION SUPPORT": "DS",
+        "COMPUTER SCIENCE": "CS",
+        "INFORMATION TECHNOLOGY": "IT",
+        "INFORMATION SYSTEMS": "IS",
+        "ARTIFICIAL INTELLIGENCE": "AI"
+    }
+    
+    if label_upper in aliases:
+        return aliases[label_upper]
+    
+    if label_upper in [d.upper() for d in q_departments]:
         return label_upper
+        
     for short_code, full_name in q_mapping.items():
         if full_name.upper() == label_upper:
             return short_code
+            
     return label_upper
 
 def calculate_questionnaire_probs(answers_dict: dict, q_data: dict) -> dict:
@@ -248,6 +264,22 @@ if raw_json_data:
         # --- QUESTIONNAIRE WIZARD UI ---
         if st.session_state.wizard_step >= 0 and q_data and st.session_state.analysis_mode == "wizard":
             st.markdown("---")
+            
+            # --- CSS FIXES FOR LARGER FONT AND MORE SPACING ---
+            st.markdown(
+                """
+                <style>
+                div.stRadio p {
+                    font-size: 18px !important;
+                }
+                div.stRadio > div[role="radiogroup"] > div {
+                    margin-bottom: 16px !important;
+                }
+                </style>
+                """,
+                unsafe_allow_html=True
+            )
+            
             total_questions = len(q_data["questions"])
             step = st.session_state.wizard_step
 
@@ -264,8 +296,8 @@ if raw_json_data:
                     options = [a["id"] for a in current_q["answers"]]
                     labels = {a["id"]: a["text"] for a in current_q["answers"]}
                     
-                    # Persist previous selection if navigating backwards
-                    default_index = options.index(st.session_state.q_answers[current_q["id"]]) if current_q["id"] in st.session_state.q_answers else 0
+                    # Persist previous selection if navigating backwards, otherwise default to None
+                    default_index = options.index(st.session_state.q_answers[current_q["id"]]) if current_q["id"] in st.session_state.q_answers else None
                     
                     selected_val = st.radio(
                         "Select your preference:",
@@ -283,7 +315,8 @@ if raw_json_data:
                             st.session_state.wizard_step -= 1
                             st.rerun()
                     with nav_col2:
-                        if st.button("Next ➡️", type="primary"):
+                        # Disable "Next" until a radio option is actually selected
+                        if st.button("Next ➡️", type="primary", disabled=(selected_val is None)):
                             st.session_state.q_answers[current_q["id"]] = selected_val
                             st.session_state.wizard_step += 1
                             st.rerun()
