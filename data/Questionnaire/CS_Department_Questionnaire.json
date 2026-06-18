@@ -1,0 +1,1488 @@
+{
+  "metadata": {
+    "title": "CS College Department Selection Questionnaire",
+    "version": "1.0",
+    "total_questions": 20,
+    "departments": [
+      "AI",
+      "CS",
+      "IT",
+      "IS",
+      "DS"
+    ],
+    "instructions": "This questionnaire will help you discover which department is the best fit for your interests, learning style, and career goals. There are no right or wrong answers—we're looking for your honest preferences. Please complete all 20 questions. Your responses are confidential.",
+    "time_estimate": "10-12 minutes"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "In your ideal computer science role, what appeals to you most?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Building and designing complex software systems from the ground up",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Supporting business operations through data systems and organizational IT solutions",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": "c",
+          "text": "Understanding and developing intelligent machines that can learn and reason",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 3
+          }
+        },
+        {
+          "id": "d",
+          "text": "Building and maintaining networks, infrastructure, and embedded systems",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "e",
+          "text": "Using advanced mathematical models to solve optimization and business problems",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 1,
+            "DS": 3,
+            "AI": 1
+          }
+        }
+      ],
+      "explanation": "Directly maps career vision to department focus. This scenario-based question efficiently captures aspiration-based alignment across all five departments without requiring technical knowledge."
+    },
+    {
+      "id": 2,
+      "text": "How comfortable are you with formal mathematical proofs and theoretical derivations?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Very Uncomfortable"
+        },
+        {
+          "value": 2,
+          "label": "Somewhat Uncomfortable"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Somewhat Comfortable"
+        },
+        {
+          "value": 5,
+          "label": "Very Comfortable"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Very Uncomfortable",
+          "scores": {
+            "CS": 0,
+            "IT": 2,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Somewhat Uncomfortable",
+          "scores": {
+            "CS": 1,
+            "IT": 2,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 2,
+            "IT": 1,
+            "IS": 2,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Somewhat Comfortable",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 1,
+            "DS": 3,
+            "AI": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "Very Comfortable",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 0,
+            "DS": 3,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Strongest discriminator between theory-heavy departments (AI, DS) and practice-oriented ones (IT, IS). Mathematical comfort is foundational to AI and DS but not a requirement for IT or IS."
+    },
+    {
+      "id": 3,
+      "text": "Approximately what percentage of your work would you want to spend actually writing and coding?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Less than 20% (mostly analysis, design, management, business work)",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": "b",
+          "text": "20-40% (balanced mix of coding and other activities)",
+          "scores": {
+            "CS": 1,
+            "IT": 2,
+            "IS": 1,
+            "DS": 2,
+            "AI": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "40-60% (coding is a major part, but not the only focus)",
+          "scores": {
+            "CS": 2,
+            "IT": 1,
+            "IS": 0,
+            "DS": 1,
+            "AI": 2
+          }
+        },
+        {
+          "id": "d",
+          "text": "60-80% (coding is the primary activity)",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 2
+          }
+        },
+        {
+          "id": "e",
+          "text": "80%+ (almost everything I do involves writing code)",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        }
+      ],
+      "explanation": "Core differentiator for CS (high coding) vs. IS (low coding). Also separates CS from AI (which balances theory and code) and from DS (which balances modeling and code)."
+    },
+    {
+      "id": 4,
+      "text": "How interested are you in understanding how computer hardware, networks, and electronics physically work?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Interested"
+        },
+        {
+          "value": 2,
+          "label": "Slightly Interested"
+        },
+        {
+          "value": 3,
+          "label": "Moderately Interested"
+        },
+        {
+          "value": 4,
+          "label": "Very Interested"
+        },
+        {
+          "value": 5,
+          "label": "Extremely Interested"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Slightly Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 1,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Moderately Interested",
+          "scores": {
+            "CS": 2,
+            "IT": 2,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 4,
+          "text": "Very Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 5,
+          "text": "Extremely Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "Primary discriminator for IT department. Interest in hardware/physical infrastructure is central to IT and minimal in other departments."
+    },
+    {
+      "id": 5,
+      "text": "Do you enjoy solving algorithmic puzzles where you design clever, efficient solutions?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Strongly Disagree"
+        },
+        {
+          "value": 2,
+          "label": "Disagree"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Agree"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Agree"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Strongly Disagree",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Disagree",
+          "scores": {
+            "CS": 0,
+            "IT": 1,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Agree",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "Strongly Agree",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Captures algorithmic thinking, core to CS and AI. DS (optimization) and IT (problem-solving) score lower because they typically apply existing frameworks rather than design novel algorithms."
+    },
+    {
+      "id": 6,
+      "text": "When learning a new technology, do you prefer to understand WHY it works mathematically, or are you satisfied knowing HOW to use it?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "I'm happy knowing how to use it and move on to the next task",
+          "scores": {
+            "CS": 0,
+            "IT": 2,
+            "IS": 2,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "b",
+          "text": "I like understanding how it works, but the math doesn't need to be deep",
+          "scores": {
+            "CS": 2,
+            "IT": 1,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I want to understand both the practical use AND the underlying principles",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 0,
+            "DS": 2,
+            "AI": 2
+          }
+        },
+        {
+          "id": "d",
+          "text": "I need to understand the mathematical foundations and formal proofs behind it",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 3,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Separates theory-focused students (AI/DS: need mathematical depth) from practice-focused students (IT/IS: okay with how). Also distinguishes CS from AI (CS is balanced; AI leans theoretical)."
+    },
+    {
+      "id": 7,
+      "text": "How important is it to you to understand how the entire computing stack works (from hardware up through applications)?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Important"
+        },
+        {
+          "value": 2,
+          "label": "Somewhat Unimportant"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Important"
+        },
+        {
+          "value": 5,
+          "label": "Very Important"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Important",
+          "scores": {
+            "CS": 0,
+            "IT": 1,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Somewhat Unimportant",
+          "scores": {
+            "CS": 0,
+            "IT": 1,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 1,
+            "IT": 1,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Important",
+          "scores": {
+            "CS": 2,
+            "IT": 1,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        },
+        {
+          "id": 5,
+          "text": "Very Important",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        }
+      ],
+      "explanation": "Distinctive for CS, which emphasizes breadth across abstraction levels. Other departments specialize; CS learners want the whole picture."
+    },
+    {
+      "id": 8,
+      "text": "Are you interested in research and potentially pursuing graduate school (Master's or PhD)?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Interested"
+        },
+        {
+          "value": 2,
+          "label": "Unlikely"
+        },
+        {
+          "value": 3,
+          "label": "Maybe"
+        },
+        {
+          "value": 4,
+          "label": "Likely"
+        },
+        {
+          "value": 5,
+          "label": "Very Likely"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Unlikely",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Maybe",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Likely",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 2,
+            "AI": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "Very Likely",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 2,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Strong signal for AI (research-heavy pathway). DS also shows research interest but balanced with industry. IT and IS are primarily industry-focused."
+    },
+    {
+      "id": 9,
+      "text": "Which of these technical topics interests you most?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Networks, cybersecurity (infrastructure level), and data communication",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "b",
+          "text": "Embedded systems, IoT (Internet of Things), and microcontrollers",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "c",
+          "text": "Database design, data warehousing, and information architecture",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": "d",
+          "text": "Machine learning algorithms, neural networks, and AI systems",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 3
+          }
+        },
+        {
+          "id": "e",
+          "text": "Operating systems, compilers, and programming language design",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        }
+      ],
+      "explanation": "Domain interest question that cleanly separates all five departments. Each option aligns with one or two primary departments."
+    },
+    {
+      "id": 10,
+      "text": "Do you enjoy hands-on work with physical systems—tinkering, building circuits, configuring hardware?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Strongly Dislike"
+        },
+        {
+          "value": 2,
+          "label": "Dislike"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Like"
+        },
+        {
+          "value": 5,
+          "label": "Strongly Like"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Strongly Dislike",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Dislike",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 1,
+            "IT": 1,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 4,
+          "text": "Like",
+          "scores": {
+            "CS": 0,
+            "IT": 2,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 5,
+          "text": "Strongly Like",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "Another IT-discriminating question. IT students enjoy the tangible, hands-on nature of hardware work; other departments are more abstract."
+    },
+    {
+      "id": 11,
+      "text": "How interested are you in understanding how businesses operate—their processes, decisions, and workflows?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Interested"
+        },
+        {
+          "value": 2,
+          "label": "Slightly Interested"
+        },
+        {
+          "value": 3,
+          "label": "Moderately Interested"
+        },
+        {
+          "value": 4,
+          "label": "Very Interested"
+        },
+        {
+          "value": 5,
+          "label": "Extremely Interested"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Slightly Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Moderately Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 2,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": 4,
+          "text": "Very Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": 5,
+          "text": "Extremely Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 2,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "Strong differentiator for IS and secondary for DS. IS applies technology to business problems; other departments are more technology-centric."
+    },
+    {
+      "id": 12,
+      "text": "When solving a problem, what motivates you more?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Building a solution that works well enough and is reliable",
+          "scores": {
+            "CS": 3,
+            "IT": 1,
+            "IS": 1,
+            "DS": 0,
+            "AI": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Optimizing to find the mathematically best or most efficient solution",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 3,
+            "AI": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Balancing performance with user experience and organizational fit",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "d",
+          "text": "Understanding the theoretical foundations of why a solution works",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Separates engineering mindset (CS: works well) from optimization mindset (DS: finds best) from theoretical mindset (AI: understands why). Also captures IS focus on organizational fit."
+    },
+    {
+      "id": 13,
+      "text": "How important is it that your technology improves user experience or organizational efficiency?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Important"
+        },
+        {
+          "value": 2,
+          "label": "Somewhat Unimportant"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Important"
+        },
+        {
+          "value": 5,
+          "label": "Very Important"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Important",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Somewhat Unimportant",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 1,
+            "IT": 1,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Important",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 2,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": 5,
+          "text": "Very Important",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "IS-specific: student-centered and business-impact thinking. IS graduates work closely with stakeholders; other departments are more technology-focused."
+    },
+    {
+      "id": 14,
+      "text": "In your career, would you rather build entire systems end-to-end, or specialize deeply in one specific area?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Definitely end-to-end—I want to see the whole picture",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Mostly end-to-end, but I'm okay specializing in one area later",
+          "scores": {
+            "CS": 2,
+            "IT": 1,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Balanced—some breadth, but with a clear specialty",
+          "scores": {
+            "CS": 1,
+            "IT": 2,
+            "IS": 2,
+            "DS": 2,
+            "AI": 2
+          }
+        },
+        {
+          "id": "d",
+          "text": "Definitely specialize—I want to be an expert in one domain",
+          "scores": {
+            "CS": 0,
+            "IT": 1,
+            "IS": 1,
+            "DS": 1,
+            "AI": 2
+          }
+        }
+      ],
+      "explanation": "Breadth vs. depth preference. CS values breadth and full-stack understanding. Specialists choose other departments that have clearer focus areas."
+    },
+    {
+      "id": 15,
+      "text": "How comfortable are you with statistics, probability, and data analysis?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Very Uncomfortable"
+        },
+        {
+          "value": 2,
+          "label": "Somewhat Uncomfortable"
+        },
+        {
+          "value": 3,
+          "label": "Neutral"
+        },
+        {
+          "value": 4,
+          "label": "Somewhat Comfortable"
+        },
+        {
+          "value": 5,
+          "label": "Very Comfortable"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Very Uncomfortable",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Somewhat Uncomfortable",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Neutral",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Somewhat Comfortable",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 1,
+            "DS": 2,
+            "AI": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "Very Comfortable",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 2,
+            "DS": 3,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Strong indicator for DS and AI (both data/probability-heavy). IS secondary because it uses statistics for business analysis. CS and IT less dependent on statistics."
+    },
+    {
+      "id": 16,
+      "text": "Are you interested in understanding how machine learning algorithms work and WHY they succeed or fail (not just using existing tools)?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Not Interested"
+        },
+        {
+          "value": 2,
+          "label": "Slightly Interested"
+        },
+        {
+          "value": 3,
+          "label": "Moderately Interested"
+        },
+        {
+          "value": 4,
+          "label": "Very Interested"
+        },
+        {
+          "value": 5,
+          "label": "Extremely Interested"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Not Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Slightly Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 3,
+          "text": "Moderately Interested",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Very Interested",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 2,
+            "AI": 3
+          }
+        },
+        {
+          "id": 5,
+          "text": "Extremely Interested",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 2,
+            "AI": 3
+          }
+        }
+      ],
+      "explanation": "Separates AI (theory-focused ML interest) from CS (applied ML interest) and DS (data-focused ML interest). All three use ML, but with different emphases."
+    },
+    {
+      "id": 17,
+      "text": "Which work environment appeals to you most?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Tech startup or R&D lab working on cutting-edge research",
+          "scores": {
+            "CS": 2,
+            "IT": 0,
+            "IS": 0,
+            "DS": 1,
+            "AI": 3
+          }
+        },
+        {
+          "id": "b",
+          "text": "Large tech company building and shipping software products",
+          "scores": {
+            "CS": 3,
+            "IT": 1,
+            "IS": 0,
+            "DS": 0,
+            "AI": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Enterprise company helping improve business operations and IT",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        },
+        {
+          "id": "d",
+          "text": "Infrastructure/systems company managing networks and hardware",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "e",
+          "text": "Analytics firm or consulting company solving complex business problems",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 1,
+            "DS": 3,
+            "AI": 1
+          }
+        }
+      ],
+      "explanation": "Career context preference. Each option aligns with one primary department's typical career path."
+    },
+    {
+      "id": 18,
+      "text": "If cybersecurity interests you, which aspect appeals more?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Securing applications and data at the software/database level",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 1,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "b",
+          "text": "Defending against attacks at the network and infrastructure level",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "c",
+          "text": "I'm not interested in cybersecurity",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "Disambiguates cybersecurity interest between CS (software/application focus) and IT (infrastructure/network focus). Eliminates confusion for security-interested students."
+    },
+    {
+      "id": 19,
+      "text": "Do you see yourself using advanced mathematical models (optimization, simulation, statistical forecasting) in your work?",
+      "type": "likert_5",
+      "scale": [
+        {
+          "value": 1,
+          "label": "Unlikely"
+        },
+        {
+          "value": 2,
+          "label": "Possibly"
+        },
+        {
+          "value": 3,
+          "label": "Likely"
+        },
+        {
+          "value": 4,
+          "label": "Very Likely"
+        },
+        {
+          "value": 5,
+          "label": "Definitely"
+        }
+      ],
+      "answers": [
+        {
+          "id": 1,
+          "text": "Unlikely",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": 2,
+          "text": "Possibly",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 1,
+            "DS": 1,
+            "AI": 1
+          }
+        },
+        {
+          "id": 3,
+          "text": "Likely",
+          "scores": {
+            "CS": 1,
+            "IT": 0,
+            "IS": 1,
+            "DS": 2,
+            "AI": 1
+          }
+        },
+        {
+          "id": 4,
+          "text": "Very Likely",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 3,
+            "AI": 2
+          }
+        },
+        {
+          "id": 5,
+          "text": "Definitely",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 3,
+            "AI": 2
+          }
+        }
+      ],
+      "explanation": "DS primary indicator. Students wanting to use mathematical models for optimization and prediction are best served by DS."
+    },
+    {
+      "id": 20,
+      "text": "In 10 years, which role is closest to your aspiration?",
+      "type": "scenario_choice",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Software architect or full-stack engineer designing large-scale systems",
+          "scores": {
+            "CS": 3,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "b",
+          "text": "AI/Machine learning researcher or scientist developing new algorithms",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 0,
+            "DS": 0,
+            "AI": 3
+          }
+        },
+        {
+          "id": "c",
+          "text": "Data scientist or operations analyst solving business optimization problems",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 1,
+            "DS": 3,
+            "AI": 0
+          }
+        },
+        {
+          "id": "d",
+          "text": "IT systems architect or network/infrastructure specialist",
+          "scores": {
+            "CS": 0,
+            "IT": 3,
+            "IS": 0,
+            "DS": 0,
+            "AI": 0
+          }
+        },
+        {
+          "id": "e",
+          "text": "Business systems analyst or IT consultant helping organizations improve operations",
+          "scores": {
+            "CS": 0,
+            "IT": 0,
+            "IS": 3,
+            "DS": 1,
+            "AI": 0
+          }
+        }
+      ],
+      "explanation": "Direct career aspiration mapping. Each option maps directly to one department's primary career pathway, providing clear final validation."
+    }
+  ],
+  "scoring_instructions": {
+    "step_1": "For each question, locate the student's answer and note the scores for each department.",
+    "step_2": "Sum all scores for each department across all 20 questions. Maximum possible: 60 points per department.",
+    "step_3": "Rank departments from highest to lowest score.",
+    "step_4": "Categorize fit level: Strong (45-60), Moderate (30-44), Lower (15-29), Minimal (0-14).",
+    "step_5": "Generate narrative feedback explaining top 2-3 departments and why they align with the student's profile.",
+    "example_calculation": {
+      "scenario": "Student answers: Q1=CS (3 pts), Q2=AI (3 pts), Q3=CS (3 pts), ...",
+      "cs_total": 48,
+      "ai_total": 35,
+      "is_total": 22,
+      "ds_total": 28,
+      "it_total": 18,
+      "interpretation": "Strong fit for CS; Moderate fit for AI and DS; consider conversations with AI or DS advisors"
+    }
+  },
+  "department_codes": {
+    "CS": "Computer Science",
+    "IT": "Information Technology",
+    "IS": "Information Systems",
+    "DS": "Data Science (Operations Research & Decision Support)",
+    "AI": "Artificial Intelligence"
+  }
+}
