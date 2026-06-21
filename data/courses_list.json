@@ -1,0 +1,534 @@
+{
+    "version": "1.0",
+    "updated": "2026-06-21",
+    "courses": [
+        {
+            "code": "AI311",
+            "name": "Introduction to Logic"
+        },
+        {
+            "code": "AI312",
+            "name": "Reasoning and Knowledge Representation"
+        },
+        {
+            "code": "AI313",
+            "name": "Autonomous Multiagent Systems"
+        },
+        {
+            "code": "AI321",
+            "name": "Theoretical Foundations Of Machine Learning"
+        },
+        {
+            "code": "AI322",
+            "name": "Supervised Learning"
+        },
+        {
+            "code": "AI331",
+            "name": "Theories Of Mind"
+        },
+        {
+            "code": "AI332",
+            "name": "Computational Cognitive Science"
+        },
+        {
+            "code": "AI414",
+            "name": "Processing of Formal and Natural Languages"
+        },
+        {
+            "code": "AI423",
+            "name": "Unsupervised Learning"
+        },
+        {
+            "code": "AI424",
+            "name": "Reinforcement Learning"
+        },
+        {
+            "code": "AI441",
+            "name": "Intelligent Autonomous Robotics"
+        },
+        {
+            "code": "AI442",
+            "name": "Generative Adversarial Networks"
+        },
+        {
+            "code": "AI444",
+            "name": "Brain-Computer Interfacing"
+        },
+        {
+            "code": "AI495",
+            "name": "Selected Topics in Artificial Intelligence-1"
+        },
+        {
+            "code": "AI496",
+            "name": "Selected Topics in Artificial Intelligence-2"
+        },
+        {
+            "code": "AI498",
+            "name": "Graduation Project"
+        },
+        {
+            "code": "CS111",
+            "name": "Fundamentals of Computer Science"
+        },
+        {
+            "code": "CS112",
+            "name": "Structured Programming"
+        },
+        {
+            "code": "CS213",
+            "name": "Object Oriented Programming"
+        },
+        {
+            "code": "CS214",
+            "name": "Data Structures"
+        },
+        {
+            "code": "CS251",
+            "name": "Introduction to Software Engineering"
+        },
+        {
+            "code": "CS316",
+            "name": "Advanced Data Structures"
+        },
+        {
+            "code": "CS321",
+            "name": "Algorithms Analysis and Design"
+        },
+        {
+            "code": "CS322",
+            "name": "Concepts of Programming Languages"
+        },
+        {
+            "code": "CS331",
+            "name": "Computer Organization and Architecture"
+        },
+        {
+            "code": "CS341",
+            "name": "Operating Systems"
+        },
+        {
+            "code": "CS342",
+            "name": "Advanced Operating Systems"
+        },
+        {
+            "code": "CS352",
+            "name": "Advanced Software Engineering"
+        },
+        {
+            "code": "CS361",
+            "name": "Artificial Intelligence"
+        },
+        {
+            "code": "CS371",
+            "name": "High Performance Computing"
+        },
+        {
+            "code": "CS423",
+            "name": "Compilers"
+        },
+        {
+            "code": "CS432",
+            "name": "Computation Theory"
+        },
+        {
+            "code": "CS453",
+            "name": "Software Testing and Quality Assurance"
+        },
+        {
+            "code": "CS457",
+            "name": "Selected Topics in Software Engineering"
+        },
+        {
+            "code": "CS462",
+            "name": "Machine Learning"
+        },
+        {
+            "code": "CS463",
+            "name": "Natural Language processing"
+        },
+        {
+            "code": "CS464",
+            "name": "Semantic Web and ontology"
+        },
+        {
+            "code": "CS465",
+            "name": "Soft Computing"
+        },
+        {
+            "code": "CS472",
+            "name": "Cloud computing"
+        },
+        {
+            "code": "CS495",
+            "name": "Selected Topics in Computer Science-1"
+        },
+        {
+            "code": "CS496",
+            "name": "Selected Topics in Computer Science-2"
+        },
+        {
+            "code": "CS498",
+            "name": "Graduation Project"
+        },
+        {
+            "code": "DS211",
+            "name": "Introduction to Operations Research and Decision Support"
+        },
+        {
+            "code": "DS251",
+            "name": "Fundamentals of Management"
+        },
+        {
+            "code": "DS312",
+            "name": "Decision Support and Future Studies Methodologies"
+        },
+        {
+            "code": "DS313",
+            "name": "Computational Intelligence"
+        },
+        {
+            "code": "DS321",
+            "name": "Linear and Integer programming"
+        },
+        {
+            "code": "DS322",
+            "name": "Non Linear Programming"
+        },
+        {
+            "code": "DS323",
+            "name": "Dynamic Programming and Stochastic Modeling"
+        },
+        {
+            "code": "DS331",
+            "name": "System Modeling and Simulation"
+        },
+        {
+            "code": "DS341",
+            "name": "Learning From Data"
+        },
+        {
+            "code": "DS342",
+            "name": "Data Analytics"
+        },
+        {
+            "code": "DS344",
+            "name": "Forecasting and Predictive Analytics"
+        },
+        {
+            "code": "DS352",
+            "name": "Production and Operations management"
+        },
+        {
+            "code": "DS414",
+            "name": "Game Theory"
+        },
+        {
+            "code": "DS415",
+            "name": "Decision Theory"
+        },
+        {
+            "code": "DS416",
+            "name": "Strategic Decision making"
+        },
+        {
+            "code": "DS424",
+            "name": "Multi-objective Programming"
+        },
+        {
+            "code": "DS425",
+            "name": "Network Modeling and Optimization"
+        },
+        {
+            "code": "DS432",
+            "name": "System Dynamics Modeling"
+        },
+        {
+            "code": "DS455",
+            "name": "Managerial Economics and Financial Analysis"
+        },
+        {
+            "code": "DS456",
+            "name": "Project Management"
+        },
+        {
+            "code": "DS498",
+            "name": "Graduation Project"
+        },
+        {
+            "code": "HU111",
+            "name": "Technical Report Writing"
+        },
+        {
+            "code": "HU112",
+            "name": "Ethics and professionalism"
+        },
+        {
+            "code": "HU113",
+            "name": "Creative Thinking and Communication Skills"
+        },
+        {
+            "code": "HU117",
+            "name": "Human Rights"
+        },
+        {
+            "code": "HU118",
+            "name": "Selected Topics in Humanities"
+        },
+        {
+            "code": "HU121",
+            "name": "Fundamentals of Economies"
+        },
+        {
+            "code": "HU124",
+            "name": "Critical Thinking"
+        },
+        {
+            "code": "HU225",
+            "name": "Entrepreneurship "
+        },
+        {
+            "code": "IS211",
+            "name": "Introduction to Database Systems"
+        },
+        {
+            "code": "IS231",
+            "name": "Web Technology"
+        },
+        {
+            "code": "IS312",
+            "name": "Database Management systems"
+        },
+        {
+            "code": "IS313",
+            "name": "Data Warehousing"
+        },
+        {
+            "code": "IS321",
+            "name": "File Management and processing"
+        },
+        {
+            "code": "IS322",
+            "name": "Information Retrieval"
+        },
+        {
+            "code": "IS332",
+            "name": "Analysis and Design of Information Systems"
+        },
+        {
+            "code": "IS333",
+            "name": "Web-based Information Systems Development"
+        },
+        {
+            "code": "IS341",
+            "name": "Business Process Management"
+        },
+        {
+            "code": "IS414",
+            "name": "Managing and Modeling Big Data"
+        },
+        {
+            "code": "IS417",
+            "name": "Selected Topics in Database"
+        },
+        {
+            "code": "IS422",
+            "name": "Data Mining"
+        },
+        {
+            "code": "IS423",
+            "name": "Business Process Mining"
+        },
+        {
+            "code": "IS424",
+            "name": "Selected Topics in Data Engineering"
+        },
+        {
+            "code": "IS434",
+            "name": "Service-Oriented Architecture"
+        },
+        {
+            "code": "IS435",
+            "name": "Usability Engineering"
+        },
+        {
+            "code": "IS436",
+            "name": "Enterprise Mobile Applications Development"
+        },
+        {
+            "code": "IS437",
+            "name": "Information Systems Development Methodologies"
+        },
+        {
+            "code": "IS442",
+            "name": "Geographical Information Systems"
+        },
+        {
+            "code": "IS443",
+            "name": "Information Systems Quality Assurance"
+        },
+        {
+            "code": "IS447",
+            "name": "Information Systems Project management"
+        },
+        {
+            "code": "IS448",
+            "name": "E-Business"
+        },
+        {
+            "code": "IS495",
+            "name": "Selected Topics in Information Systems-1"
+        },
+        {
+            "code": "IS498",
+            "name": "Graduation Project"
+        },
+        {
+            "code": "IT111",
+            "name": "Electronics"
+        },
+        {
+            "code": "IT212",
+            "name": "Logic Design"
+        },
+        {
+            "code": "IT221",
+            "name": "Computer Networks Technology"
+        },
+        {
+            "code": "IT313",
+            "name": "Computer Architecture"
+        },
+        {
+            "code": "IT314",
+            "name": "Micro Controllers"
+        },
+        {
+            "code": "IT322",
+            "name": "Advanced Computer networks"
+        },
+        {
+            "code": "IT331",
+            "name": "Data Communication"
+        },
+        {
+            "code": "IT341",
+            "name": "Signals and Systems"
+        },
+        {
+            "code": "IT342",
+            "name": "Digital Signal Processing"
+        },
+        {
+            "code": "IT351",
+            "name": "Information Theory and Data Compression"
+        },
+        {
+            "code": "IT352",
+            "name": "Pattern Recognition"
+        },
+        {
+            "code": "IT361",
+            "name": "Computer Graphics"
+        },
+        {
+            "code": "IT415",
+            "name": "Machine Vision"
+        },
+        {
+            "code": "IT416",
+            "name": "Robotics"
+        },
+        {
+            "code": "IT423",
+            "name": "Information and Computer Networks security"
+        },
+        {
+            "code": "IT424",
+            "name": "Wireless and Mobile Networks"
+        },
+        {
+            "code": "IT425",
+            "name": "Cloud Computing Networks"
+        },
+        {
+            "code": "IT432",
+            "name": "Communication Technology "
+        },
+        {
+            "code": "IT433",
+            "name": "Cyber Security"
+        },
+        {
+            "code": "IT443",
+            "name": "Image Processing"
+        },
+        {
+            "code": "IT444",
+            "name": "Multimedia mining"
+        },
+        {
+            "code": "IT445",
+            "name": "Advanced Image processing"
+        },
+        {
+            "code": "IT495",
+            "name": "Selected Topics in Information Technology-1"
+        },
+        {
+            "code": "IT498",
+            "name": "Graduation Project"
+        },
+        {
+            "code": "MA000",
+            "name": "Math-0"
+        },
+        {
+            "code": "MA111",
+            "name": "Math-1"
+        },
+        {
+            "code": "MA112",
+            "name": "Discrete Mathematics"
+        },
+        {
+            "code": "MA113",
+            "name": "Math-2"
+        },
+        {
+            "code": "MA214",
+            "name": "Math-3"
+        },
+        {
+            "code": "ST121",
+            "name": "Probability and Statistics-1"
+        },
+        {
+            "code": "ST222",
+            "name": "Probability and Statistics-2"
+        },
+        {
+            "code": "STR301",
+            "name": "Field Training for Network program"
+        },
+        {
+            "code": "STR302",
+            "name": "Field Training for Software Engineering program"
+        },
+        {
+            "code": "STR303",
+            "name": "Field Training for Computing and Bioinformatics- (Modified)"
+        },
+        {
+            "code": "STR304",
+            "name": "Field Training for Data Science"
+        },
+        {
+            "code": "STR305",
+            "name": "Field Trining for Cyber Security"
+        },
+        {
+            "code": "TR301",
+            "name": "Field Training"
+        }
+    ]
+}
