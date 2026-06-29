@@ -1,0 +1,404 @@
+{
+  "courses": [
+    {
+      "code": "CS111",
+      "term_work": 0.0,
+      "exam_work": 82.0,
+      "result": 82.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "CS112",
+      "term_work": 0.0,
+      "exam_work": 90.0,
+      "result": 90.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "HU121",
+      "term_work": 0.0,
+      "exam_work": 81.0,
+      "result": 81.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IT111",
+      "term_work": 0.0,
+      "exam_work": 95.0,
+      "result": 95.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "IT212",
+      "term_work": 0.0,
+      "exam_work": 87.0,
+      "result": 87.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "MA111",
+      "term_work": 0.0,
+      "exam_work": 80.0,
+      "result": 80.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "MA113",
+      "term_work": 0.0,
+      "exam_work": 85.0,
+      "result": 85.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "HU111",
+      "term_work": 25.0,
+      "exam_work": 48.0,
+      "result": 73.0,
+      "grade": "C+",
+      "points": 2.7
+    },
+    {
+      "code": "ST121",
+      "term_work": 40.0,
+      "exam_work": 40.0,
+      "result": 80.0,
+      "grade": "B",
+      "points": 3.0
+    },
+    {
+      "code": "MA214",
+      "term_work": 35.0,
+      "exam_work": 52.0,
+      "result": 87.0,
+      "grade": "B+",
+      "points": 3.2
+    },
+    {
+      "code": "CS213",
+      "term_work": 34.0,
+      "exam_work": 38.0,
+      "result": 72.0,
+      "grade": "C+",
+      "points": 2.6
+    },
+    {
+      "code": "IT221",
+      "term_work": 34.0,
+      "exam_work": 50.0,
+      "result": 84.0,
+      "grade": "B+",
+      "points": 3.2
+    },
+    {
+      "code": "MA112",
+      "term_work": 38.0,
+      "exam_work": 48.0,
+      "result": 86.0,
+      "grade": "B+",
+      "points": 3.2
+    },
+    {
+      "code": "CS214",
+      "term_work": 40.0,
+      "exam_work": 52.0,
+      "result": 92.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "CS251",
+      "term_work": 31.0,
+      "exam_work": 43.0,
+      "result": 74.0,
+      "grade": "C+",
+      "points": 2.7
+    },
+    {
+      "code": "IS211",
+      "term_work": 39.0,
+      "exam_work": 46.0,
+      "result": 85.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "IS231",
+      "term_work": 31.0,
+      "exam_work": 50.0,
+      "result": 81.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "HU117",
+      "term_work": 33.0,
+      "exam_work": 40.0,
+      "result": 73.0,
+      "grade": "C+",
+      "points": 2.7
+    },
+    {
+      "code": "DS251",
+      "term_work": 32.0,
+      "exam_work": 42.0,
+      "result": 74.0,
+      "grade": "C+",
+      "points": 2.7
+    },
+    {
+      "code": "HU118",
+      "term_work": 19.0,
+      "exam_work": 40.0,
+      "result": 59.0,
+      "grade": "D",
+      "points": 2.0
+    },
+    {
+      "code": "HU112",
+      "term_work": 39.0,
+      "exam_work": 58.0,
+      "result": 97.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "ST222",
+      "term_work": 37.0,
+      "exam_work": 47.0,
+      "result": 84.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "DS211",
+      "term_work": 40.0,
+      "exam_work": 56.0,
+      "result": 96.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "CS341",
+      "term_work": 38.0,
+      "exam_work": 43.0,
+      "result": 81.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "CS352",
+      "term_work": 36.0,
+      "exam_work": 39.0,
+      "result": 75.0,
+      "grade": "B",
+      "points": 3.0
+    },
+    {
+      "code": "IS312",
+      "term_work": 33.0,
+      "exam_work": 35.0,
+      "result": 68.0,
+      "grade": "C",
+      "points": 2.4
+    },
+    {
+      "code": "IS321",
+      "term_work": 37.0,
+      "exam_work": 43.0,
+      "result": 80.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IS332",
+      "term_work": 40.0,
+      "exam_work": 51.0,
+      "result": 91.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "HU113",
+      "term_work": 38.0,
+      "exam_work": 58.0,
+      "result": 96.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "CS321",
+      "term_work": 35.0,
+      "exam_work": 56.0,
+      "result": 91.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "HU124",
+      "term_work": 38.0,
+      "exam_work": 44.0,
+      "result": 82.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "CS361",
+      "term_work": 40.0,
+      "exam_work": 49.0,
+      "result": 89.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "IS313",
+      "term_work": 35.0,
+      "exam_work": 54.0,
+      "result": 89.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "IS333",
+      "term_work": 40.0,
+      "exam_work": 50.0,
+      "result": 90.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "IS322",
+      "term_work": 38.0,
+      "exam_work": 51.0,
+      "result": 89.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "IS341",
+      "term_work": 35.0,
+      "exam_work": 50.0,
+      "result": 85.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "TR301",
+      "term_work": 0.0,
+      "exam_work": 90.0,
+      "result": 90.0,
+      "grade": "A+",
+      "points": 4.0
+    },
+    {
+      "code": "HU225",
+      "term_work": 20.0,
+      "exam_work": 60.0,
+      "result": 80.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IS442",
+      "term_work": 32.0,
+      "exam_work": 50.0,
+      "result": 82.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IS417",
+      "term_work": 36.0,
+      "exam_work": 48.0,
+      "result": 84.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IS437",
+      "term_work": 34.0,
+      "exam_work": 53.0,
+      "result": 87.0,
+      "grade": "A",
+      "points": 3.7
+    },
+    {
+      "code": "IS434",
+      "term_work": 36.0,
+      "exam_work": 44.0,
+      "result": 80.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "CS462",
+      "term_work": 35.0,
+      "exam_work": 49.0,
+      "result": 84.0,
+      "grade": "B+",
+      "points": 3.3
+    },
+    {
+      "code": "IS498",
+      "term_work": 0.0,
+      "exam_work": 0.0,
+      "result": 0.0,
+      "grade": "Con",
+      "points": 0.0
+    },
+    {
+      "code": "IS424",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    },
+    {
+      "code": "IS448",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    },
+    {
+      "code": "IS414",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    },
+    {
+      "code": "IS495",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    },
+    {
+      "code": "IS422",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    },
+    {
+      "code": "IS498",
+      "term_work": null,
+      "exam_work": null,
+      "result": null,
+      "grade": null,
+      "points": null
+    }
+  ]
+}
